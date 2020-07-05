@@ -44,5 +44,5 @@ func main() {
 		exitError(err)
 	}
 
-	fmt.Printf("Unpacking of %q from URL %q was successful.", os.Args[2], os.Args[1])
+	fmt.Printf("Unpacking of %q from URL %q was successful.\n", os.Args[2], os.Args[1])
 }
